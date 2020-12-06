@@ -16,7 +16,7 @@ body {
   background-color: #ecfdf5;
   max-width: 100rem;
   margin: auto;
-  min-width: 45rem;
+  min-width: 72rem;
 }
 
 section {
@@ -111,7 +111,9 @@ a {
 
 .github,
 .linkedin,
-.twitter, .tel, .mail {
+.twitter,
+.tel,
+.mail {
   width: 4rem;
   height: 4rem;
 }
