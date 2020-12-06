@@ -93,6 +93,7 @@ a {
   border-radius: 0.4rem;
   text-decoration: none;
   color: black;
+  margin-left: 1rem;
 }
 .p-button:hover {
   text-decoration: underline;
@@ -104,6 +105,7 @@ a {
   border-radius: 0.4rem;
   text-decoration: none;
   color: black;
+  margin-left: 1rem;
 }
 .s-button:hover {
   text-decoration: underline;
