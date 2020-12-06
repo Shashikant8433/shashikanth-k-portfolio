@@ -31,7 +31,7 @@ section {
   list-style-type: none;
   text-align: right;
   margin-top: 1rem;
-  padding-left: 8rem;
+  padding-left: 5rem;
 }
 
 .list-type li {
@@ -40,10 +40,11 @@ section {
 
 .list-type li a {
   text-decoration: none;
-  margin: 0rem 1rem;
+  margin: 0rem 0.2rem;
   font-size: 2.9vmax;
   color: #514e64;
   font-weight: bolder;
+  padding: 1rem;
 }
 
 .list-type li a:hover {
@@ -52,7 +53,6 @@ section {
 
 .navbar .list-type .active {
   color: #34d399;
-  padding: 1rem;
 }
 
 .img {
@@ -125,6 +125,7 @@ a {
 
 .copy {
   margin: 1rem;
+  padding: 1rem;
 }
 
 .logo {
