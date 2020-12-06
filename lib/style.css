@@ -25,18 +25,13 @@ section {
 
 .navbar {
   background-color: var(--img-bg);
-  padding: 1rem;
-}
-
-.nav-head {
-  font-size: 4.4vmax;
-  margin: 0rem;
-  color: var(--primary-color);
 }
 
 .list-type {
   list-style-type: none;
   text-align: right;
+  margin-top: 1rem;
+  padding-left: 8rem;
 }
 
 .list-type li {
@@ -49,7 +44,6 @@ section {
   font-size: 2.9vmax;
   color: #514e64;
   font-weight: bolder;
-  padding: 0.6rem;
 }
 
 .list-type li a:hover {
@@ -58,6 +52,7 @@ section {
 
 .navbar .list-type .active {
   color: #34d399;
+  padding: 1rem;
 }
 
 .img {
@@ -83,7 +78,7 @@ section h2 {
 
 section p,
 a {
-  font-size: 1.75vmax;
+  font-size: 2vmax;
   padding: 1rem;
 }
 
@@ -116,6 +111,27 @@ a {
 .twitter,
 .tel,
 .mail {
-  width: 4rem;
-  height: 4rem;
+  width: 3.5vmax;
+  height: 3.5vmax;
+}
+
+.footer {
+  background-color: var(--primary-color);
+}
+
+.connect {
+  margin: 1rem;
+}
+
+.copy {
+  margin: 1rem;
+}
+
+.logo {
+  font-size: 4vmax;
+  position: relative;
+  top: 5rem;
+  left: auto;
+  text-decoration: none;
+  color: var(--primary-color);
 }
