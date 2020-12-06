@@ -1,0 +1,117 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap");
+
+:root {
+  --primary-color: #34d399;
+  --img-bg: #ebfbf5;
+}
+
+html {
+  font-size: 10px;
+}
+
+body {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  background-color: #ecfdf5;
+  max-width: 100rem;
+  margin: auto;
+  min-width: 45rem;
+}
+
+section {
+  height: 15vmax;
+}
+
+.navbar {
+  background-color: var(--img-bg);
+  padding: 1rem;
+}
+
+.nav-head {
+  font-size: 4.4vmax;
+  margin: 0rem;
+  color: var(--primary-color);
+}
+
+.list-type {
+  list-style-type: none;
+  text-align: right;
+}
+
+.list-type li {
+  display: inline;
+}
+
+.list-type li a {
+  text-decoration: none;
+  margin: 0rem 1rem;
+  font-size: 2.9vmax;
+  color: #514e64;
+  font-weight: bolder;
+  padding: 0.6rem;
+}
+
+.list-type li a:hover {
+  color: #34d399;
+}
+
+.navbar .list-type .active {
+  color: #34d399;
+}
+
+.img {
+  padding: 2rem 1rem 8.5rem 1rem;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  height: 100%;
+}
+
+section h2 {
+  font-size: 3vmax;
+  padding: 0.3rem;
+  margin: 1rem 0rem;
+}
+
+.myself,
+.project {
+  width: 100%;
+  background-color: #d3e0db;
+}
+
+section p,
+a {
+  font-size: 1.75vmax;
+  padding: 1rem;
+}
+
+.p-button {
+  background-color: var(--primary-color);
+  border: 0.2rem solid black;
+  border-radius: 0.4rem;
+  text-decoration: none;
+  color: black;
+}
+.p-button:hover {
+  text-decoration: underline;
+}
+
+.s-button {
+  background-color: #daf9ec;
+  border: 0.2rem solid black;
+  border-radius: 0.4rem;
+  text-decoration: none;
+  color: black;
+}
+.s-button:hover {
+  text-decoration: underline;
+}
+
+.github,
+.linkedin,
+.twitter, .tel, .mail {
+  width: 4rem;
+  height: 4rem;
+}
