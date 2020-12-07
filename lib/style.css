@@ -144,13 +144,12 @@ a {
   text-decoration: none;
   margin: 0;
   padding: 0;
-  border-bottom: #514e64 solid 0.6rem;
 }
 .strong {
   border-bottom: #514e64 solid 0.6rem;
   position: relative;
   top: 4rem;
-  left: auto;
+  left: 2rem;
   font-size: 3rem;
   color: var(--primary-color);
 }
@@ -180,7 +179,7 @@ a {
 .right {
   position: relative;
   top: -2rem;
-  left: 85%;
+  left: 75%;
 }
 
 .blog-list {
@@ -199,4 +198,52 @@ a {
 
 .blog-list li a:hover {
   text-decoration: underline;
+}
+
+.blogpage-list {
+  list-style-type: none;
+}
+
+.blogpage-list li {
+  margin: 1rem;
+  padding: 1rem;
+  height: 1%;
+}
+
+.blogpage-list h2,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+.blogpage-list h2 {
+  margin-left: 1rem;
+}
+
+.date {
+  padding: 0;
+  margin-left: 1rem;
+}
+
+.right-one {
+  position: relative;
+  top: 1rem;
+  left: 38%;
+}
+
+.right-two {
+  position: relative;
+  top: 1rem;
+  left: 39%;
+  margin-left: 0;
+}
+
+.right-three {
+  position: relative;
+  top: 1rem;
+  left: 75%;
+}
+
+center {
+  margin-top: 1rem;
 }
