@@ -142,9 +142,9 @@ a {
 }
 
 .logo {
-  padding: 0rem;
+  padding: 1rem 0rem;
   position: relative;
-  top: 4rem;
+  top: 3rem;
   left: 0;
   text-decoration: none;
   color: var(--primary-color);
@@ -156,6 +156,7 @@ a {
 }
 .logo:hover {
   color: black;
+  background-color: var(--primary-color);
 }
 
 .techs {
